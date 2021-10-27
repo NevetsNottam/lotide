@@ -1,4 +1,3 @@
-
 // FUNCTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
@@ -8,12 +7,6 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-
-/*
-const eqArrays = function(array1, array2) {
-  return array1.every((val) => array2.includes(val));
-}
-*/
 
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
