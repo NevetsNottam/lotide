@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@nevets/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Created this library of function during my time in Lighthouse Labs bootcamp",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/NevetsNottam/lotide.git"
   },
-  "author": "",
+  "author": "Steven Matton",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NevetsNottam/lotide/issues"
