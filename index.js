@@ -18,6 +18,7 @@ module.exports = {
   countLetters,
   countOnly,
   eqArrays,
+  findKey,
   letterPositions,
   map,
   takeUntil,
