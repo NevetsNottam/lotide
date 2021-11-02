@@ -1,14 +1,7 @@
-
-
 const findKey = function(obj, callback) {
-  
   let newArr = Object.keys(obj);
 
   for (let keys of newArr) {
-    //console.log(obj);
-    //console.log(keys);
-    //console.log(obj[keys]);
-    //console.log(callback(newArr));
     if (callback(obj[keys])) {
       return keys;
     } 
