@@ -26,14 +26,14 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `head(...)`: return the first character of a string
-* `tail(...)`: returns all but the first character of a string
-* `middle(...)`: returns the middle character of a string, two middle characters if string has even amount of characters
-* `countLetters(...)`: returns how many times a letter is used in a string
+* `head(array)`: return the first element of an array
+* `tail(array)`: returns all but the first element of an array
+* `middle(array)`: returns the middle element(s) of an array
+* `countLetters(sentence)`: returns how many times a letter is used in a string
 * `countOnly(allItems, ItemsToCount)`: returns how many instances of each string were found in the array of strings
 * `eqArrays(array1, array2)`: takes in two arrays and returns true or false based on a perfect match
 * `findKey(object, callback)`: returns the first key for which the callback returns a truthy value
 * `letterPositions(sentence)`: returns all the indices (zero-based positions) in the string where each character is found
 * `map(array, callback)`: returns a new array based on the results of the callback function
-* `takeUntil()`: returns a new array of elements from an existing array up until a condition is met
+* `takeUntil(array, callback)`: returns a slice of the array with elements taken from the beginning. It keeps going until the callback returns a truthy value
 * `without(sourceArray, itemsToRemove)`: return a subset of a given array, removing unwanted elements
